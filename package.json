@@ -1,11 +1,15 @@
 {
   "name": "material-design-icons",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "description": "Material Design icons by Google",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/google/material-design-icons"
+  },
+  "scripts": {
+    "build:fnt-baseline": "icon-font-generator ./scripts/svg-all/baseline/*.svg -n MaterialIcons-Regular -o ./scripts/fnt-output/ --normalize",
+    "build:fnt-outline": "icon-font-generator ./scripts/svg-all/outline/*.svg -n MaterialIcons-Outlined -o ./scripts/fnt-output/ --normalize"
   },
   "keywords": [
     "icons",
@@ -13,7 +17,7 @@
     "material-design",
     "google"
   ],
-  "author": "Material Design Authors",
+  "author": "Material Design Authors / Dariusz Kobuszewski",
   "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/google/material-design-icons/issues"
@@ -22,9 +26,11 @@
   "devDependencies": {
     "babel-core": "^6.1.2",
     "babel-preset-es2015": "^6.1.2",
+    "bluebird": "^3.5.3",
     "gulp": "^3.9.0",
     "gulp-if": "^2.0.0",
     "gulp-svg-sprite": "^1.2.14",
+    "icon-font-generator": "^2.1.10",
     "lodash": "^3.10.1",
     "sprity": "^1.0.8",
     "sprity-gm": "^1.0.2",
