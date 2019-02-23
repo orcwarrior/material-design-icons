@@ -44,7 +44,6 @@ async function main() {
 
 main();
 
-const waitMs = (ms) => new Promise(res => setTimeout(res, ms));
 function download(url, dest) {
     console.log("Download: ", url);
     return new Promise((resolve, reject) => {
