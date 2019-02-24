@@ -6,6 +6,7 @@ icons by css-classes (thanks to icomoon app). In short:
 * Two color icons can be used now: battery indicators, most of Two-Tone theme icons - thanks to css-classes for each of icon.
 * Font's was imported into IcoMoon APP, and they can be easily re-customized using files at `icomoon-fonts/(theme)/MaterialIcons-(theme).icomoon.json`
 * Some utility scripts in `scripts` folder hopefully helps to keep this package updated with orginal icons.
+* Dropped all svg/png etc. icons assets - they're doing fine with updates on original `material-design-icons`, this repo is mostly for webguys and all those assets bloated package badly.
 ### How to start
 Package can be installed as NPM repository, you can simply install it by command:
 ```
