@@ -1,3 +1,17 @@
+pre {
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: #ddd;
+    background: #334557;
+}
+.pure-menu-item.repo-link {
+    text-transform: uppercase;
+    /*font-variant: small-caps;*/
+}
+.pure-menu-item.repo-link > .pure-menu-link{
+    font-size: 13px;
+    color: #0c6196 !important;
+}
 .theme-picker, .src-picker {
     font-size: 12px;
     margin: 10px 4px;
@@ -7,12 +21,6 @@
 .theme-picker span, .src-picker span {
     margin-top: 2px;
     margin-left: 16px;
-}
-pre {
-    padding: 0.5em 1em;
-    border-radius: 5px;
-    color: #ddd;
-    background: #334557;
 }
 
 .theme-picker .theme, .src-picker .src {
