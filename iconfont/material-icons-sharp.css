@@ -2,8 +2,8 @@
   font-family: 'MaterialIcons-Sharp';
   src:
     url('MaterialIcons-Sharp.ttf?5xug7y') format('truetype'),
-    url('fonts/MaterialIcons-Sharp.woff?5xug7y') format('woff'),
-    url('fonts/MaterialIcons-Sharp.svg?5xug7y#MaterialIcons-Sharp') format('svg');
+    url('MaterialIcons-Sharp.woff?5xug7y') format('woff'),
+    url('MaterialIcons-Sharp.svg?5xug7y#MaterialIcons-Sharp') format('svg');
   font-weight: normal;
   font-style: normal;
 }

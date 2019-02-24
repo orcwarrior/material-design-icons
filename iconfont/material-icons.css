@@ -2,8 +2,8 @@
   font-family: 'MaterialIcons-Filled';
   src:
     url('MaterialIcons-Filled.ttf?nj6yv7') format('truetype'),
-    url('fonts/MaterialIcons-Filled.woff?nj6yv7') format('woff'),
-    url('fonts/MaterialIcons-Filled.svg?nj6yv7#MaterialIcons-Filled') format('svg');
+    url('MaterialIcons-Filled.woff?nj6yv7') format('woff'),
+    url('MaterialIcons-Filled.svg?nj6yv7#MaterialIcons-Filled') format('svg');
   font-weight: normal;
   font-style: normal;
 }

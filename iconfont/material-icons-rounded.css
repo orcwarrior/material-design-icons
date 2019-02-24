@@ -2,8 +2,8 @@
   font-family: 'MaterialIcons-Rounded';
   src:
     url('MaterialIcons-Rounded.ttf?s0lfnl') format('truetype'),
-    url('fonts/MaterialIcons-Rounded.woff?s0lfnl') format('woff'),
-    url('fonts/MaterialIcons-Rounded.svg?s0lfnl#MaterialIcons-Rounded') format('svg');
+    url('MaterialIcons-Rounded.woff?s0lfnl') format('woff'),
+    url('MaterialIcons-Rounded.svg?s0lfnl#MaterialIcons-Rounded') format('svg');
   font-weight: normal;
   font-style: normal;
 }

@@ -2,8 +2,8 @@
   font-family: 'MaterialIcons-TwoTone';
   src:
     url('MaterialIcons-TwoTone.ttf?6lvrmn') format('truetype'),
-    url('fonts/MaterialIcons-TwoTone.woff?6lvrmn') format('woff'),
-    url('fonts/MaterialIcons-TwoTone.svg?6lvrmn#MaterialIcons-TwoTone') format('svg');
+    url('MaterialIcons-TwoTone.woff?6lvrmn') format('woff'),
+    url('MaterialIcons-TwoTone.svg?6lvrmn#MaterialIcons-TwoTone') format('svg');
   font-weight: normal;
   font-style: normal;
 }

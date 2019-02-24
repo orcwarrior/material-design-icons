@@ -2,8 +2,8 @@
   font-family: 'MaterialIcons-Outlined';
   src:
     url('MaterialIcons-Outlined.ttf?palxbb') format('truetype'),
-    url('fonts/MaterialIcons-Outlined.woff?palxbb') format('woff'),
-    url('fonts/MaterialIcons-Outlined.svg?palxbb#MaterialIcons-Outlined') format('svg');
+    url('MaterialIcons-Outlined.woff?palxbb') format('woff'),
+    url('MaterialIcons-Outlined.svg?palxbb#MaterialIcons-Outlined') format('svg');
   font-weight: normal;
   font-style: normal;
 }
