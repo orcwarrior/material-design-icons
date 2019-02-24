@@ -1,38 +1,27 @@
-# Material design icons
-
-Material design icons is the official [icon set](https://www.google.com/design/spec/style/icons.html#icons-system-icons) from Google.  The icons are designed under the [material design guidelines](https://material.io/guidelines/).
-
-### 3.0.1 Update
-
-* Changed license in package.json.
-* Added missing device symbol sprites.
-
-### 3.0.0 Update
-
-License change to Apache 2.0!
-
-## Getting Started
-
-Read the [developer guide](https://google.github.io/material-design-icons/) on how to use the material design icons in your project.
-
-### Using a font collection
-
+# Material design icons: Revisited
+Unofficial update of Google Material Design Icons based fonts - for ease of use as ligatures and additionaly support of
+icons by css-classes (thanks to icomoon app). In short:
+* More intuitive and productiveness oriented [demo page](https://orcwarrior.github.com/material-design-icons-revisited).
+* Icons themes (Filled, Outlined, Rounded, Two-Tone & Sharp) can be used easily now.
+* Two color icons can be used now: battery indicators, most of Two-Tone theme icons - thanks to css-classes for each of icon.
+* Font's was imported into IcoMoon APP, and they can be easily re-customized using files at `icomoon-fonts/(theme)/MaterialIcons-(theme).icomoon.json`
+* Some utility scripts in `scripts` folder hopefully helps to keep this package updated with orginal icons.
+### How to start
+Package can be installed as NPM repository, you can simply install it by command:
+```
+npm i material-design-icons-revisited
+```
+Icon themes are written in way, they can be used at once. Simply add stylesheet to your index.html, or
+                import it. Make sure corresponding font file could be resolved too.
+If you looking for how to use certain icon open [demo page](https://orcwarrior.github.com/material-design-icons-revisited) and just click it - proper code will add to your clipboard
+                automatically.
+                
 The `iconfont` folder contains pre-generated font files that can be included in a project. This is especially convenient for the web; however, it is generally better to link to the web font hosted on Google Fonts:
 
-```html
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-```
-
-Read more in the [font portion](https://google.github.io/material-design-icons/#icon-font-for-the-web) of our full developer guide.
-
-### Using symbols and sprites
-
-The `css-sprite` and `svg-sprite` folders contain pre-generated sprite sheets, as well as svg symbols that can be `<use>`d more directly and with fewer constraints. Instructions for using them are in the [sprites documentation](https://github.com/google/material-design-icons/tree/master/sprites).
-
-## Polymer icons
-
-If you wish to use the icon set with Polymer, we recommend consuming them via the [`<iron-icons>`](https://github.com/polymerelements/iron-icons) element ([`<core-icons>`](https://github.com/Polymer/core-icons) in v0.5).
+You can read original Google Developer guide here: [font portion](https://google.github.io/material-design-icons/#icon-font-for-the-web).
+### Known issues
+* Some of the icons still uses clip path, which make font glyphs rendered as filled rectangles instead actual icon. I don't have proper tools to change these icons by now.
+* Multicolored (by now Material Desing fonts max. 2 colored) font's cannot use ligatures, but with this package you can fallback to css-class.
 
 ## License
 
