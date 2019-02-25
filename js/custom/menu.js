@@ -31,9 +31,9 @@
         console.log(`iconName: `, iconName);
         const iconClass = " " + ((iconClassExceptions[iconName]) ? iconClassExceptions[iconName] : iconName);
         if (currentSourceType === sources.ligatures)
-            return `<i className="material-icons${getCurrentTheme()}">${iconName}</i>`;
+            return `<i class="material-icons${getCurrentTheme()}">${iconName}</i>`;
         else /*sources.css-class*/
-            return `<i className="material-icons${getCurrentTheme()}${iconClass}"></i>`;
+            return `<i class="material-icons${getCurrentTheme()}${iconClass}"></i>`;
     };
 
     const setSourceType = (srcType) => {
